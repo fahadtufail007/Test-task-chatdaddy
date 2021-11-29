@@ -1,0 +1,198 @@
+.headerBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerBarContacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contentFlex {
+    display: flex;
+    align-items: center;
+}
+.audienceHeading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.totalContacts {
+    color: #CDD4E1;
+    font-size: 13px;
+}
+.subHeading {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 0px;
+}
+.tagsContainer {
+    background-color: #F3F5F9;
+    border-radius: 15px;
+    padding-bottom: 14px;
+}
+.tagsFlex  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.tabsBackground {
+    background-color: white;
+}
+.selected {
+    background-color: #d9e3f5;
+}
+.minimunContainer {
+    background-color: #F3F5F9;
+    color: #8691a4;
+    border-radius: 6px;
+    padding: 8px 10px;
+    width: 48%;
+}
+
+.saveBtn {
+    border: none;
+    margin-bottom: 15px;
+    background-color: #09A391;
+    padding: 7px 0px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 10px;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #F3F5F9;
+    border-radius: 15px;
+    padding: 6px 15px;
+    margin-top: 10px;
+}
+.searchInput {
+    width: 96%;
+    border: none;
+    background-color: #F3F5F9;
+    padding-left: 12px;
+}
+.searchInput::placeholder {
+    color: #B4C0D3;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.searchInput:focus {
+    outline: none;
+    border: none;
+}
+.selectHeading  {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+.exportBtn {
+    background-color: #09A391;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 12px;
+}
+.selectAllBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.userImage {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.addBtnContent {
+    display: flex;
+    justify-content: flex-end;
+}
+.userName {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.userContact {
+    color: #afc3e7;
+    font-size: 12px;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.borderBottom {
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgb(230, 228, 228);
+}
+.alphabeticHeading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.tagBtn {
+    display: flex;
+    align-items: center;
+    background-color: #09A391;
+    border-radius: 14px;
+    padding: 3px 10px;
+    margin-right: 14px;
+}
+.tagsText {
+    margin-right: 6px;
+    font-size: 13px;
+    color: white;
+    opacity: .9;
+}
+.contactRowStyle {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.sideBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.scrollAbleContent {
+    overflow-y: scroll;
+    height: 75%;
+}
+.scrollAbleContent::-webkit-scrollbar {
+    display: none;
+}
+@media only screen and (max-width:380px) {
+    .tagBtn {
+        margin-right: 7px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .headerBarContacts {
+        margin-top: 40px;
+    }
+}
+
+
+.styledCheckbox .form-check-input[type=checkbox] {
+    border-radius: 2.25em  !important;
+    background-color: #09A391 !important;
+    border-color: #09A391 !important;
+}
+.styledGreyCheckbox .form-check-input[type=checkbox] {
+    border-radius: 2.25em  !important;
+    background-color: #B4C0D3 !important;
+    border-color: #B4C0D3 !important;
+    height: 22px !important;
+    width: 22px !important;
+    margin-left: 5px !important;
+}
